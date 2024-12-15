@@ -246,7 +246,7 @@ Generate a corrected SQL query that addresses the error. Respond with only the S
         response = requests.post(
             f"{self.ollama_url}/api/generate",
             json={
-                "model": "deepseek-coder",
+                "model": "codellama",
                 "prompt": prompt,
                 "stream": False
             }
